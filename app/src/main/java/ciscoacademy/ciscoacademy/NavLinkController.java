@@ -32,6 +32,8 @@ public class NavLinkController implements View.OnClickListener {
             fragmentTransaction.replace(R.id.FragmentContainer, new MissionVisionFragment());
         }
 
+        //new comment test
+
         fragmentTransaction.addToBackStack(null);
         fragmentTransaction.commit();
     }
