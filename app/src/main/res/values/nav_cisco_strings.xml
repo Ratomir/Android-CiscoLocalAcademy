@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nav_header_cisco">Cisco</string>
+
+    <string name="nav_goals">Goals</string>
+    <string name="nav_inventions">Inventions</string>
+    <string name="nav_connection">Connection</string>
+    <string name="nav_mission">Mission and vision</string>
+
+    <string name="nav_golas_text">
+        <![CDATA[
+        <html>
+        <head></head>
+        <body style="text-align:justify;">
+        Cisco was founded 1984 and it is among the founders of modern internet.
+        Engeneers of Cisco had a major role in stimulating developement of IP protocol (Internet Protocol),
+        language which is stil the foundation of Internet.
+        Today, Cisco solutions, are in many networks in companies, faculties, administrations and governments world wide.
+        The infrastructure of Cisco transmits 80% of data through Internet.
+        The company employs 36.500 employees.
+        Cisco headquarters are in San Hose, California, USA.
+        Larger business units are in Research Triangle Park in North Carolina, Chemsford,
+        Massachusetts; Stockley Park, Great Britain and Sidney, Australia.
+        In sixty states all around the world Cisco has got over 430 offices for sale and customer support.
+        </body>
+        </html>
+        ]]>
+    </string>
+
+    <string name="nav_inventions_text">
+        <![CDATA[
+        <html>
+        <head></head>
+        <body style="text-align:justify;">
+        Cisco makes products and invents technologies so to make use of the Internet much more simple and dynamic.
+        From Internet research and development laboratories came 70% new Cisco technologies.
+        Optical networks, IP routing, transmission of voice and video data via
+        IP protocol, wireless technology, control of contents, networks for placement of data,
+        are all technologies of future which came from Cisco research centers.
+        </body>
+        </html>
+        ]]>
+    </string>
+
+    <string name="nav_connection_text">
+        <![CDATA[
+        <html>
+        <head></head>
+        <body style="text-align:justify;">
+        Aware of thorough changes which Internet brings in every-day-life and in our way of work, Cisco based his own organisation on Internet and local networks.
+        Cisco was among those who first used networks to support a client, sell a product, educate employees and financial management.
+        Solutions which Cisco suggests to his clients are proven and a result of their own practise.
+        It is without a doubt that just that kind of starting point in e-culture made Cisco company a real world wide supplier of network solutions for Internet.
+        Those solutions are fit for all important aspects of good operation of network:
+        switching, routing, security, wireless technologies, voice transmission via IP protocol,
+        data placement, administration, transfer of data and Long Reach Ethernet.
+        The most modern technologies are necessary to every company wishing to develope to keep pace with the time.
+        </body>
+        </html>
+        ]]>
+    </string>
+
+    <string name="nav_mission_text">
+        <![CDATA[
+        <html>
+        <head></head>
+        <body style="text-align:justify;">
+        To mould the future of the Internet by creating values and incredible
+        benefits for our clients, partners, workers and investors.
+        Internet is changing the way we live, work, play and study.
+        </body>
+        </html>
+        ]]>
+    </string>
+
+</resources>

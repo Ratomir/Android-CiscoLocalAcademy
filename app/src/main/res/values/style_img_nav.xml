@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="NavImg">
+        <item name="android:layout_width">@dimen/nav_img_width</item>
+        <item name="android:layout_height">@dimen/nav_img_height</item>
+        <item name="android:layout_alignParentTop">false</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:minHeight">@dimen/nav_img_width</item>
+        <item name="android:minWidth">@dimen/nav_img_width</item>
+    </style>
+</resources>

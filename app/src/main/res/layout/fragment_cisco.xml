@@ -1,0 +1,110 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ciscoacademy.ciscoacademy.Fragments.CiscoFragment"
+    android:background="@color/design_fab_stroke_top_outer_color">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                style="@style/NavImg"
+                android:src="@drawable/index1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="@dimen/nav_margin"
+                android:layout_marginTop="@dimen/nav_margin"
+                android:text="@string/nav_header_cisco"
+                android:textSize="@dimen/nav_header_size"
+                android:textStyle="normal|bold" />
+
+            <include layout="@layout/line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <include layout="@layout/nav_img" />
+
+                    <Button
+                        android:text="@string/nav_goals"
+                        android:id="@+id/btnGoals"
+                        android:textColor="#a00405"
+                        style="@style/NavButton"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <include layout="@layout/nav_img" />
+
+                        <Button
+                            android:text="@string/nav_inventions"
+                            android:id="@+id/btnInventions"
+                            android:textColor="#a00405"
+                            style="@style/NavButton"
+                            />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <include layout="@layout/nav_img" />
+
+                    <Button
+                        android:text="@string/nav_connection"
+                        android:id="@+id/btnConnection"
+                        android:textColor="#a00405"
+                        style="@style/NavButton"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <include layout="@layout/nav_img" />
+
+                    <Button
+                        android:text="@string/nav_mission"
+                        android:id="@+id/btnMission"
+                        android:textColor="#a00405"
+                        style="@style/NavButton"
+                        />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

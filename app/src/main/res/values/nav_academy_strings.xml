@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nav_header_academy">Academy</string>
+
+    <string name="nav_base">Base information</string>
+    <string name="nav_organization">Organization</string>
+    <string name="nav_local_acadamey">Local academy ES</string>
+    <string name="nav_apply">Who can apply</string>
+    <string name="nav_how_apply">How to apply</string>
+</resources>

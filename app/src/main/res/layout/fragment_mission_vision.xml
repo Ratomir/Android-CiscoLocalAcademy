@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ciscoacademy.ciscoacademy.Fragments.Cisco.MissionVisionFragment"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/FragmentLinkTitle"
+        android:text="@string/nav_mission"
+        android:textColor="@android:color/holo_blue_dark" />
+
+    <WebView
+        android:id="@+id/webViewMission"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

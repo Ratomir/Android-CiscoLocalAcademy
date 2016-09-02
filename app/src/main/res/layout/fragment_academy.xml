@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ciscoacademy.ciscoacademy.Fragments.AcademyFragment"
+    android:background="@color/design_fab_stroke_top_outer_color">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView style="@style/NavImg"
+                android:src="@drawable/index2" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="@dimen/nav_margin"
+                android:layout_marginTop="@dimen/nav_margin"
+                android:text="@string/nav_header_academy"
+                android:textSize="@dimen/nav_header_size"
+                android:textStyle="normal|bold"
+                android:textColor="#005B85"
+                 />
+
+            <include layout="@layout/line" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
