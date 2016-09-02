@@ -6,7 +6,9 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
+import ciscoacademy.ciscoacademy.NavLinkController;
 import ciscoacademy.ciscoacademy.R;
 
 /**
@@ -14,17 +16,25 @@ import ciscoacademy.ciscoacademy.R;
  */
 public class AcademyFragment extends Fragment {
 
+    private NavLinkController navLinkController = null;
 
     public AcademyFragment() {
-        // Required empty public constructor
+        navLinkController = new NavLinkController();
+        navLinkController.setTempFragment(this);
     }
-
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_academy, container, false);
+        View fragmentAcademy = inflater.inflate(R.layout.fragment_academy, container, false);
+
+        Button btnTemp = null;
+
+        btnTemp = (Button) fragmentAcademy.findViewById(R.id.btnBaseInformation);
+        btnTemp.setOnClickListener(navLinkController);
+
+        return fragmentAcademy;
     }
 
 }

@@ -15,11 +15,11 @@ import ciscoacademy.ciscoacademy.R;
  */
 public class CiscoFragment extends Fragment {
 
-    private NavLinkController clickClickController = null;
+    private NavLinkController navClickController = null;
 
     public CiscoFragment() {
-        clickClickController = new NavLinkController();
-        clickClickController.setTempFragment(this);
+        navClickController = new NavLinkController();
+        navClickController.setTempFragment(this);
     }
 
     @Override
@@ -31,16 +31,16 @@ public class CiscoFragment extends Fragment {
         Button btnTemp = null;
 
         btnTemp = (Button) fragmentCisco.findViewById(R.id.btnGoals);
-        btnTemp.setOnClickListener(clickClickController);
+        btnTemp.setOnClickListener(navClickController);
 
         btnTemp = (Button) fragmentCisco.findViewById(R.id.btnInventions);
-        btnTemp.setOnClickListener(clickClickController);
+        btnTemp.setOnClickListener(navClickController);
 
         btnTemp = (Button) fragmentCisco.findViewById(R.id.btnConnection);
-        btnTemp.setOnClickListener(clickClickController);
+        btnTemp.setOnClickListener(navClickController);
 
         btnTemp = (Button) fragmentCisco.findViewById(R.id.btnMission);
-        btnTemp.setOnClickListener(clickClickController);
+        btnTemp.setOnClickListener(navClickController);
 
         return fragmentCisco;
     }

@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ciscoacademy.ciscoacademy.Fragments.Academy.BaseInformationFragment"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/FragmentLinkTitle"
+        android:text="@string/nav_base"
+        android:textColor="#005B85" />
+
+    <WebView
+        android:id="@+id/webViewBaseInformation"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

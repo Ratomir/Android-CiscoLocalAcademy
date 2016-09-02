@@ -2,20 +2,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="ciscoacademy.ciscoacademy.Fragments.AcademyFragment"
-    android:background="@color/design_fab_stroke_top_outer_color">
+    android:background="@color/design_fab_stroke_top_outer_color"
+    tools:context="ciscoacademy.ciscoacademy.Fragments.AcademyFragment">
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="@drawable/layout_bg"
+        android:layout_margin="4dp"
+        android:paddingTop="6dp"
+        >
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <ImageView style="@style/NavImg"
-                android:src="@drawable/index2" />
+            <ImageView
+                style="@style/NavImg"
+                android:src="@drawable/index2"
+                android:contentDescription="@drawable/index2" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -24,12 +30,81 @@
                 android:layout_marginLeft="@dimen/nav_margin"
                 android:layout_marginTop="@dimen/nav_margin"
                 android:text="@string/nav_header_academy"
-                android:textSize="@dimen/nav_header_size"
-                android:textStyle="normal|bold"
                 android:textColor="#005B85"
-                 />
+                android:textSize="@dimen/nav_header_size"
+                android:textStyle="normal|bold" />
 
             <include layout="@layout/line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <include layout="@layout/nav_img" />
+
+                <Button
+                    android:id="@+id/btnBaseInformation"
+                    style="@style/NavButton"
+                    android:text="@string/nav_base"
+                    android:textColor="#005B85" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <include layout="@layout/nav_img" />
+
+                <Button
+                    android:id="@+id/btnOrganization"
+                    style="@style/NavButton"
+                    android:text="@string/nav_organization"
+                    android:textColor="#005B85" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <include layout="@layout/nav_img" />
+
+                <Button
+                    android:id="@+id/btnLocalAcademyES"
+                    style="@style/NavButton"
+                    android:text="@string/nav_local_academy"
+                    android:textColor="#005B85" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <include layout="@layout/nav_img" />
+
+                <Button
+                    android:id="@+id/btnApply"
+                    style="@style/NavButton"
+                    android:text="@string/nav_apply"
+                    android:textColor="#005B85" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <include layout="@layout/nav_img" />
+
+                <Button
+                    android:id="@+id/btnWhoApply"
+                    style="@style/NavButton"
+                    android:text="@string/nav_how_apply"
+                    android:textColor="#005B85" />
+
+            </LinearLayout>
 
         </LinearLayout>
 

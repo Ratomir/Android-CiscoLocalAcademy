@@ -4,7 +4,33 @@
 
     <string name="nav_base">Base information</string>
     <string name="nav_organization">Organization</string>
-    <string name="nav_local_acadamey">Local academy ES</string>
+    <string name="nav_local_academy">Local academy ES</string>
     <string name="nav_apply">Who can apply</string>
     <string name="nav_how_apply">How to apply</string>
+
+    <string name="nav_base_info_text">
+        <![CDATA[
+        <html>
+        <head></head>
+        <body style="text-align:justify;background-color : transparent;">
+        Network Academy Program is electronic study model which includes web-based basic materials,
+        on-line testing, students’ current knowledge tracking, training and support for instructors and as
+        well practical laboratory work.
+        Networking Academy Program is carried out in universities, secondary schools,
+        high schools and other educational institutions.
+        Network Academy Program was formally established 1997 by most eminent companies concerning network technologies Cisco Systems.
+        It represents a course which lasts eight semesters / 560 classes
+        Via course, students are prepared for acquirement of industrial sertificates like
+         Cisco Certified Network Associate (CCNA) and Cisco Certified Network Professional (CCNP).
+        The program combines lectures and on-line studying with practical laboratory exercises where
+        students can show their acquired knowledge by working on real networks. After four semesters
+        and 280 classes students are completely trained for exam 640-801 for gaining CCNA sertificate.
+        CCNA sertificate is the first step in Cisco Career Certification program, which ends with CCIE sertificate,
+         most respected sertificate in the field of computer comunication. Materials for course preperation (curriculum and other materials)
+         as well as tests which participants take are available on Internet by using CNAMS (Cisco Networking Academy Management System).
+        Special attention was dedicated to use and check of acquired theory knowledge which is being done in especially equipped laboratories.
+        </body>
+        </html>
+        ]]>
+    </string>
 </resources>
