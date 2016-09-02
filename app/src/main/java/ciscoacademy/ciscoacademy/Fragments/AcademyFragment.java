@@ -34,6 +34,9 @@ public class AcademyFragment extends Fragment {
         btnTemp = (Button) fragmentAcademy.findViewById(R.id.btnBaseInformation);
         btnTemp.setOnClickListener(navLinkController);
 
+        btnTemp = (Button) fragmentAcademy.findViewById(R.id.btnOrganization);
+        btnTemp.setOnClickListener(navLinkController);
+
         return fragmentAcademy;
     }
 

@@ -33,4 +33,40 @@
         </html>
         ]]>
     </string>
+
+    <string name="academy_organization_part1">
+        <![CDATA[
+        <html>
+        <head></head>
+        <body style="text-align:justify;background-color : transparent;">
+        The educational institusion which implements Networking Academy Program is Cisco Networking Academy.
+        Cisco Academy system is hierarchically organised, like is show on next pictures:
+        </body>
+        </html>
+        ]]>
+    </string>
+
+    <string name="academy_organization_part2">
+        There are three levels of academies:
+    </string>
+
+    <string name="academy_organization_sub1">
+        Local Academy is an institution which maintains one or more Network Academy courses for students.
+        Local academy is responsable for providing enviroment for maintaining courses.
+    </string>
+
+    <string name="academy_organization_sub2">
+        Regional Academy is an institution which provides support to Local Academies in one geographical area.
+        Regional Academy provides training of local instructors for every course semester. Roll of Regional Academy, as well,
+        is to give continuous support to Local Academies about establishing classes, technical questions, questions about material and programmes etc.
+    </string>
+
+    <string name="academy_organization_sub3">
+        CATC (Cisco Academy Training Center) is an institution which gives support to Regional Academies in the aforementioned ways.
+    </string>
+
+    <string name="academy_organization_part3">
+        All administrative jobs concerning Network Academy Program are being done using one simple Web application.
+    </string>
+
 </resources>
