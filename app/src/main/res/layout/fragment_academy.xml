@@ -92,7 +92,7 @@
 
             </LinearLayout>
 
-            <LinearLayout
+            <!--<LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
@@ -104,7 +104,7 @@
                     android:text="@string/nav_how_apply"
                     android:textColor="#005B85" />
 
-            </LinearLayout>
+            </LinearLayout>-->
 
         </LinearLayout>
 

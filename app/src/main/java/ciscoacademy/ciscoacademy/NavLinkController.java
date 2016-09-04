@@ -5,6 +5,7 @@ import android.support.v4.app.FragmentTransaction;
 import android.view.View;
 
 import ciscoacademy.ciscoacademy.Fragments.Academy.BaseInformationFragment;
+import ciscoacademy.ciscoacademy.Fragments.Academy.LocalAcademyFragment;
 import ciscoacademy.ciscoacademy.Fragments.Academy.OrganizationFragment;
 import ciscoacademy.ciscoacademy.Fragments.Cisco.ConnectionFragment;
 import ciscoacademy.ciscoacademy.Fragments.Cisco.GoalsFragment;
@@ -36,6 +37,8 @@ public class NavLinkController implements View.OnClickListener {
             fragmentTransaction.replace(R.id.FragmentContainer, new BaseInformationFragment());
         } else if (id == R.id.btnOrganization) {
             fragmentTransaction.replace(R.id.FragmentContainer, new OrganizationFragment());
+        }else if (id == R.id.btnLocalAcademyES || id == R.id.btnApply) {
+            fragmentTransaction.replace(R.id.FragmentContainer, new LocalAcademyFragment());
         }
 
         fragmentTransaction.addToBackStack(null);

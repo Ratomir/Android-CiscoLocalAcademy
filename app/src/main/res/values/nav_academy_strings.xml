@@ -69,4 +69,41 @@
         All administrative jobs concerning Network Academy Program are being done using one simple Web application.
     </string>
 
+    <string name="academy_local">
+        <![CDATA[
+        <html>
+        <head></head>
+        <body style="text-align:justify;background-color : transparent;">
+            Local Cisco academy was established in November 2007. Teaching is began to take place in early February 2010. On Monday, 1st quarter.
+            February 2010, started to work in the first class CISCO Academy at Program CCNA Exploration 4.0 - Network Fundamentals.
+        </body>
+        </html>
+        ]]>
+    </string>
+
+    <string name="academy_apply_1">
+        To Local Cisco Academy on faculty for Electrical Engeneering in East Sarajevo can apply anyone who:
+    </string>
+
+    <string name="academy_apply_2">
+        Is over 16 years old
+    </string>
+
+    <string name="academy_apply_3">
+        Knows English language at least passively
+    </string>
+
+    <string name="academy_apply_4">
+        <![CDATA[
+        <html>
+        <head></head>
+        <body style="text-align:justify;background-color : transparent;">
+            Classes are held in Serbian language, but all materials and exams which are taken on-line are in English language,
+            so it is needed at least passive knowledge of English language.
+            Pupils and students of the University in East Sarajevo have special discount.
+        </body>
+        </html>
+        ]]>
+    </string>
+
 </resources>
