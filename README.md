@@ -7,4 +7,4 @@ Web api, and web portal will be soon in production version and deploy to GitHub.
 
 If you want to join our team on next phase development you can contact me on private message on github or email: ratomir@live.com.
  
-Best greetings and happy coding. :) ;) 
+Greetings and happy coding. :) ;) 
