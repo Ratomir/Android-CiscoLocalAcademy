@@ -7,6 +7,9 @@ import android.view.View;
 import ciscoacademy.ciscoacademy.Fragments.Academy.BaseInformationFragment;
 import ciscoacademy.ciscoacademy.Fragments.Academy.LocalAcademyFragment;
 import ciscoacademy.ciscoacademy.Fragments.Academy.OrganizationFragment;
+import ciscoacademy.ciscoacademy.Fragments.CCNA.CCNABaseFragment;
+import ciscoacademy.ciscoacademy.Fragments.CCNA.Semester1Fragment;
+import ciscoacademy.ciscoacademy.Fragments.CCNA.Semester2Fragment;
 import ciscoacademy.ciscoacademy.Fragments.Cisco.ConnectionFragment;
 import ciscoacademy.ciscoacademy.Fragments.Cisco.GoalsFragment;
 import ciscoacademy.ciscoacademy.Fragments.Cisco.InventionsFragment;
@@ -39,6 +42,12 @@ public class NavLinkController implements View.OnClickListener {
             fragmentTransaction.replace(R.id.FragmentContainer, new OrganizationFragment());
         }else if (id == R.id.btnLocalAcademyES || id == R.id.btnApply) {
             fragmentTransaction.replace(R.id.FragmentContainer, new LocalAcademyFragment());
+        }else if (id == R.id.btnCCNABaseInformation) {
+            fragmentTransaction.replace(R.id.FragmentContainer, new CCNABaseFragment());
+        }else if (id == R.id.btnSemester1) {
+            fragmentTransaction.replace(R.id.FragmentContainer, new Semester1Fragment());
+        }else if (id == R.id.btnSemester2) {
+            fragmentTransaction.replace(R.id.FragmentContainer, new Semester2Fragment());
         }
 
         fragmentTransaction.addToBackStack(null);

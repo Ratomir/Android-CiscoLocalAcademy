@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nav_header_ccna">CCNA program</string>
+
+    <string name="nav_ccna_base_info">
+        Base infromation
+    </string>
+
+    <string name="ccna_text" formatted="false">
+        <![CDATA[
+        <html>
+        <head></head>
+        <body style="text-align:justify;">
+        CCNA course, in duration of 280 classes, represents the first part of Networking Academy programe.
+Course is fit for the exam for acquiring CCNA sertificate.
+Via course, students will learn to install and configure Cisco routers and switches in
+multiprotocol enviroment using LAN and WAN technologies.
+Material for CCNA course (curriculum) is shown through interactive multimedial form, and available to students via Internet.
+Arround 80% of the course deals with general network technologies and protocols,
+while the remaining 20% is related to Cisco equipment.
+CCNA course is divided on four semesters.
+        </body>
+        </html>
+        ]]>
+    </string>
+
+    <string name="semester"> Semester </string>
+
+    <string name="semester1">Basics of networking</string>
+
+    <string name="semester2">Routers and basics of routing</string>
+
+    <string name="semester3">Switches and advanced routing</string>
+
+    <string name="semester4">WAN technologies</string>
+
+    <string name="readMore">Read more</string>
+
+</resources>

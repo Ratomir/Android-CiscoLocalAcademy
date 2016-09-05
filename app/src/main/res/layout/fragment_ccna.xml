@@ -1,0 +1,236 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ciscoacademy.ciscoacademy.Fragments.CCNAFragment"
+    android:background="@color/design_fab_stroke_top_outer_color">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                style="@style/NavImg"
+                android:src="@drawable/index3" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="@dimen/nav_margin"
+                android:layout_marginTop="@dimen/nav_margin"
+                android:text="@string/nav_header_ccna"
+                android:textSize="@dimen/nav_header_size"
+                android:textStyle="normal|bold"
+                android:textColor="#055367"/>
+
+            <include layout="@layout/line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <include layout="@layout/nav_img" />
+
+                    <Button
+                        android:text="@string/nav_ccna_base_info"
+                        android:id="@+id/btnCCNABaseInformation"
+                        android:textColor="#0D778A"
+                        style="@style/NavButton"
+                        />
+
+                </LinearLayout>
+                
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/semester" 
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="24dp"/>
+
+
+            </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp">
+
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="1"
+                        android:textSize="20dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/layout_circle"
+                        android:gravity="center_vertical|center_horizontal"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/semester1"
+                            android:textSize="25dp"
+                            />
+
+                        <Button
+                            android:id="@+id/btnSemester1"
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:text="@string/readMore"
+                            android:textSize="18dp"
+                            android:textAllCaps="false"
+                            android:textStyle="normal"
+                            android:gravity="start"
+                            android:background="?android:attr/selectableItemBackground"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp">
+
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="2"
+                        android:textSize="20dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/layout_circle"
+                        android:gravity="center_vertical|center_horizontal"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="25dp"
+                            android:text="@string/semester2"/>
+
+                        <Button
+                            android:id="@+id/btnSemester2"
+                            android:layout_width="match_parent"
+                            android:layout_height="25dp"
+                            android:text="@string/readMore"
+                            android:textSize="18dp"
+                            android:textAllCaps="false"
+                            android:textStyle="normal"
+                            android:gravity="start"
+                            android:background="?android:attr/selectableItemBackground"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="3"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/layout_circle"
+                    android:gravity="center_vertical|center_horizontal"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/semester3"
+                        android:textSize="25dp"
+                        />
+
+                    <Button
+                        android:id="@+id/btnSemester3"
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:text="@string/readMore"
+                        android:textSize="18dp"
+                        android:textAllCaps="false"
+                        android:textStyle="normal"
+                        android:gravity="start"
+                        android:background="?android:attr/selectableItemBackground"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="4"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/layout_circle"
+                    android:gravity="center_vertical|center_horizontal"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/semester4"
+                        android:textSize="25dp"
+                        />
+
+                    <Button
+                        android:id="@+id/btnSemester4"
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:text="@string/readMore"
+                        android:textSize="18dp"
+                        android:textAllCaps="false"
+                        android:textStyle="normal"
+                        android:gravity="start"
+                        android:background="?android:attr/selectableItemBackground"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

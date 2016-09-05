@@ -4,16 +4,16 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_cisco"
-            android:icon="@drawable/ic_menu_camera"
+            android:icon="@drawable/ic_cast"
             android:title="Cisco" />
         <item
             android:id="@+id/nav_academy"
-            android:icon="@drawable/ic_menu_gallery"
+            android:icon="@drawable/ic_account_balance"
             android:title="Academy" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
+            android:id="@+id/nav_ccna"
+            android:icon="@drawable/ic_library_books_black"
+            android:title="CCNA program" />
         <item
             android:id="@+id/nav_manage"
             android:icon="@drawable/ic_menu_manage"
@@ -27,8 +27,8 @@
                 android:icon="@drawable/ic_dashboard_24px"
                 android:title="Login" />
             <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
+                android:id="@+id/nav_register"
+                android:icon="@drawable/ic_loupe"
                 android:title="Register" />
         </menu>
     </item>

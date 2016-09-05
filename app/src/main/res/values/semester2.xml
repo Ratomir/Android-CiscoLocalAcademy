@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="semester2_text">
+        By the end of second semester of CCNA, students will have the knowledge of Cisco routers and their work, including:
+    </string>
+
+    <string name="semester2_item1">
+        Cisco IOS
+    </string>
+
+    <string name="semester2_item2">
+        Configurating routers
+    </string>
+
+    <string name="semester2_item3">
+        Files control on router
+    </string>
+
+    <string name="semester2_item4">
+        RIP, IGRP, EIGRP and OSPF protocols for routing
+    </string>
+
+    <string name="semester2_item5">
+        Router troubleshooting
+    </string>
+
+    <string name="semester2_item6">
+        Advanced TCP/IP concepts
+    </string>
+
+
+</resources>

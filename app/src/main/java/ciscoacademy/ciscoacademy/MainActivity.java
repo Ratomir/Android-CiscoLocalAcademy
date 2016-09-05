@@ -16,6 +16,7 @@ import android.view.View;
 import android.widget.TextView;
 
 import ciscoacademy.ciscoacademy.Fragments.AcademyFragment;
+import ciscoacademy.ciscoacademy.Fragments.CCNAFragment;
 import ciscoacademy.ciscoacademy.Fragments.CiscoFragment;
 
 public class MainActivity extends AppCompatActivity
@@ -96,12 +97,8 @@ public class MainActivity extends AppCompatActivity
             transaction.replace(R.id.FragmentContainer, new CiscoFragment());
         } else if (id == R.id.nav_academy) {
             transaction.replace(R.id.FragmentContainer, new AcademyFragment());
-        } else if (id == R.id.nav_slideshow) {
-
-        } else if (id == R.id.nav_manage) {
-
-        } else if (id == R.id.nav_send) {
-
+        } else if (id == R.id.nav_ccna) {
+            transaction.replace(R.id.FragmentContainer, new CCNAFragment());
         } else if (id == R.id.nav_login) {
             Intent loginIntent = new Intent(this, LoginActivity.class);
             startActivity(loginIntent);

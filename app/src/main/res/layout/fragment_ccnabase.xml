@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ciscoacademy.ciscoacademy.Fragments.CCNA.CCNABaseFragment"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/FragmentLinkTitle"
+        android:textColor="#055367"
+        android:text="@string/nav_ccna_base_info" />
+
+    <WebView
+        android:id="@+id/webViewCCNABase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

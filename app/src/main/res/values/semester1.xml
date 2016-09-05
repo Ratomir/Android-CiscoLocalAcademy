@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="semester1_text">
+        At the completion of first semester, students will have the knowledge about basics of computer networks, including:
+    </string>
+
+    <string name="semester1_item1">
+        Terminology of computer networks
+    </string>
+
+    <string name="semester1_item2">
+        OSI model and industrial standards
+    </string>
+
+    <string name="semester1_item3">
+        TCP/IP protocols; IP, TCP, UDP protocols of aplicational layer
+    </string>
+
+    <string name="semester1_item4">
+        Network components
+    </string>
+
+    <string name="semester1_item5">
+        Cabling of LAN and WAN networks
+    </string>
+
+    <string name="semester1_item6">
+        Testing of cables
+    </string>
+
+    <string name="semester1_item7">
+        Functioning of Ethernet and 10/100/1000/10 G Ethernet
+    </string>
+
+    <string name="semester1_item8">
+        Ethernet switching
+    </string>
+
+    <string name="semester1_item9">
+        IP address and subnetting
+    </string>
+</resources>
