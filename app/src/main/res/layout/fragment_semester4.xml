@@ -2,8 +2,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context="ciscoacademy.ciscoacademy.Fragments.CCNA.Semester2Fragment">
+    tools:context="ciscoacademy.ciscoacademy.Fragments.CCNA.Semester4Fragment"
+    android:orientation="vertical">
 
     <TextView
         android:layout_width="match_parent"
@@ -11,31 +11,24 @@
         android:layout_marginLeft="5dp"
         android:layout_marginTop="5dp"
         android:textSize="18dp"
-        android:text="Semester 2" />
+        android:text="Semester 4" />
 
     <TextView
         style="@style/FragmentLinkTitle"
         android:textColor="#055367"
-        android:text="@string/semester2" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/semester2_text"
-        android:textColor="#000000"
-        android:textSize="15dp"
-        android:paddingLeft="10dp" />
+        android:text="@string/semester4"/>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="18dp"
         android:orientation="vertical">
 
+        //item 1
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:layout_marginLeft="18dp">
+            android:layout_height="wrap_content">
 
             <include layout="@layout/bullet" />
 
@@ -44,16 +37,14 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="17dp"
                 android:paddingBottom="5dp"
-                android:text="@string/semester2_item1"
+                android:text="@string/semester4_item1"
                 android:textSize="14dp" />
-
         </LinearLayout>
 
+        //item 2
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:layout_marginLeft="18dp">
+            android:layout_height="wrap_content">
 
             <include layout="@layout/bullet" />
 
@@ -62,16 +53,14 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="17dp"
                 android:paddingBottom="5dp"
-                android:text="@string/semester2_item2"
+                android:text="@string/semester4_item2"
                 android:textSize="14dp" />
-
         </LinearLayout>
 
+        //item 3
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:layout_marginLeft="18dp">
+            android:layout_height="wrap_content">
 
             <include layout="@layout/bullet" />
 
@@ -80,16 +69,14 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="17dp"
                 android:paddingBottom="5dp"
-                android:text="@string/semester2_item3"
+                android:text="@string/semester4_item3"
                 android:textSize="14dp" />
-
         </LinearLayout>
 
+        //item 4
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:layout_marginLeft="18dp">
+            android:layout_height="wrap_content">
 
             <include layout="@layout/bullet" />
 
@@ -98,16 +85,14 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="17dp"
                 android:paddingBottom="5dp"
-                android:text="@string/semester2_item4"
+                android:text="@string/semester4_item4"
                 android:textSize="14dp" />
-
         </LinearLayout>
 
+        //item 5
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:layout_marginLeft="18dp">
+            android:layout_height="wrap_content">
 
             <include layout="@layout/bullet" />
 
@@ -116,16 +101,14 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="17dp"
                 android:paddingBottom="5dp"
-                android:text="@string/semester2_item5"
+                android:text="@string/semester4_item5"
                 android:textSize="14dp" />
-
         </LinearLayout>
 
+        //item 6
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:layout_marginLeft="18dp">
+            android:layout_height="wrap_content">
 
             <include layout="@layout/bullet" />
 
@@ -134,9 +117,40 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="17dp"
                 android:paddingBottom="5dp"
-                android:text="@string/semester2_item6"
+                android:text="@string/semester4_item6"
                 android:textSize="14dp" />
+        </LinearLayout>
 
+        //item 7
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <include layout="@layout/bullet" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="17dp"
+                android:paddingBottom="5dp"
+                android:text="@string/semester4_item7"
+                android:textSize="14dp" />
+        </LinearLayout>
+
+        //item 8
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <include layout="@layout/bullet" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="17dp"
+                android:paddingBottom="5dp"
+                android:text="@string/semester4_item8"
+                android:textSize="14dp" />
         </LinearLayout>
 
     </LinearLayout>

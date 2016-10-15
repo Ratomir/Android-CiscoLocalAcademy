@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="semester3_text">
+        By the completion of CCNA third semester, students will have the knowledge of Cisco switches and their work as in advanced routing techniques, including:
+    </string>
+
+    <string name="semester3_item1">
+        Variable Lenght Subnet Masking (VLSM)
+    </string>
+
+    <string name="semester3_item2">
+        Advanced routing protocols (RIP v2, OSPF, EIGRP)
+    </string>
+
+    <string name="semester3_item3">
+        Switching concepts
+    </string>
+
+    <string name="semester3_item4">
+        Switches
+    </string>
+
+    <string name="semester3_item5">
+        Configurating switches
+    </string>
+
+    <string name="semester3_item6">
+        Spanning Tree Protocole (STP)
+    </string>
+
+    <string name="semester3_item7">
+        Virtual LANs (VLANs)
+    </string>
+
+    <string name="semester3_item8">
+        VLAN Trunking Protocol (VTP)
+    </string>
+
+    <string name="semester3_item9">
+        Wireless
+    </string>
+
+</resources>

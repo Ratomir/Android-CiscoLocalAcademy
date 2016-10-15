@@ -10,6 +10,8 @@ import ciscoacademy.ciscoacademy.Fragments.Academy.OrganizationFragment;
 import ciscoacademy.ciscoacademy.Fragments.CCNA.CCNABaseFragment;
 import ciscoacademy.ciscoacademy.Fragments.CCNA.Semester1Fragment;
 import ciscoacademy.ciscoacademy.Fragments.CCNA.Semester2Fragment;
+import ciscoacademy.ciscoacademy.Fragments.CCNA.Semester3Fragment;
+import ciscoacademy.ciscoacademy.Fragments.CCNA.Semester4Fragment;
 import ciscoacademy.ciscoacademy.Fragments.Cisco.ConnectionFragment;
 import ciscoacademy.ciscoacademy.Fragments.Cisco.GoalsFragment;
 import ciscoacademy.ciscoacademy.Fragments.Cisco.InventionsFragment;
@@ -48,6 +50,10 @@ public class NavLinkController implements View.OnClickListener {
             fragmentTransaction.replace(R.id.FragmentContainer, new Semester1Fragment());
         }else if (id == R.id.btnSemester2) {
             fragmentTransaction.replace(R.id.FragmentContainer, new Semester2Fragment());
+        }else if (id == R.id.btnSemester3) {
+            fragmentTransaction.replace(R.id.FragmentContainer, new Semester3Fragment());
+        }else if (id == R.id.btnSemester4) {
+            fragmentTransaction.replace(R.id.FragmentContainer, new Semester4Fragment());
         }
 
         fragmentTransaction.addToBackStack(null);

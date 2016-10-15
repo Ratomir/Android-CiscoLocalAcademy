@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="semester4_text">
+        By the end of fourth CCNA semester, students will have the knowledge of WAN technologies, including:
+    </string>
+
+    <string name="semester4_item1">
+        WAN technologies
+    </string>
+
+    <string name="semester4_item2">
+        Point-to-Point Protocol (PPP)
+    </string>
+
+    <string name="semester4_item3">
+        Frame Relay
+    </string>
+
+    <string name="semester4_item4">
+        Access Control Lists
+    </string>
+
+    <string name="semester4_item5">
+        Dynamic Host Configuration Protocol (DHCP)
+    </string>
+
+    <string name="semester4_item6">
+        Network Adress Translation (NAT) and Port Adress Translation (PAT)
+    </string>
+
+    <string name="semester4_item7">
+        Network Management
+    </string>
+
+    <string name="semester4_item8">
+        Computer networks troubleshooting
+    </string>
+
+</resources>

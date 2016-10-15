@@ -14,23 +14,19 @@
             android:id="@+id/nav_ccna"
             android:icon="@drawable/ic_library_books_black"
             android:title="CCNA program" />
-        <item
+        <!--<item
             android:id="@+id/nav_manage"
             android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
-    </group>
+            android:title="Tools" />-->
 
-    <item android:title="Communicate">
-        <menu>
-            <item
-                android:id="@+id/nav_login"
-                android:icon="@drawable/ic_dashboard_24px"
-                android:title="Login" />
-            <item
-                android:id="@+id/nav_register"
-                android:icon="@drawable/ic_loupe"
-                android:title="Register" />
-        </menu>
-    </item>
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@drawable/ic_dashboard_24px"
+            android:title="Login" />
+        <item
+            android:id="@+id/nav_register"
+            android:icon="@drawable/ic_loupe"
+            android:title="Register" />
+    </group>
 
 </menu>

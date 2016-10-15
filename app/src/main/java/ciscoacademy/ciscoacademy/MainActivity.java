@@ -102,6 +102,9 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_login) {
             Intent loginIntent = new Intent(this, LoginActivity.class);
             startActivity(loginIntent);
+        } else if (id == R.id.nav_register) {
+            Intent registerIntent = new Intent(this, RegisterActivity.class);
+            startActivity(registerIntent);
         }
 
         transaction.addToBackStack(null);
